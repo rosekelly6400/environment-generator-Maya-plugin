@@ -185,7 +185,7 @@ def interpretPng():
     global zVals
     global rotRandVals
     
-    frsult = cmds.interpretMap(mapFile)
+    frsult = cmds.hello(mapFile)
     mapData = frsult
     x = frsult[0]
     y = frsult[1]
@@ -349,7 +349,7 @@ def interpretFloorMap():
     
     global mapData
     
-    flrsult = cmds.interpretMap(floorMapFile)
+    flrsult = cmds.hello(floorMapFile)
     floorMapData = flrsult
     x = flrsult[0]
     y = flrsult[1]
